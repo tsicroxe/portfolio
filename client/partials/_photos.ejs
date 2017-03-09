@@ -1,0 +1,50 @@
+<div ng-controller='dashboardController' class='container'>
+  <section class='row'>
+    <div class='col-sm-12'>
+
+    <div class='page-header' id='gallery'>
+      <h2>Gallery<small> Check out Photos of Andrew</small></h2>
+    </div>
+
+    <div class='carousel slide' id='screenshot-carousel' data-ride='carousel'>
+      <ol class='carousel-indicators'>
+        <li data-target='#screenshot-carousel' data-slide-to='0' class='active'></li>
+        <li data-target='#screenshot-carousel' data-slide-to='1'></li>
+        <li data-target='#screenshot-carousel' data-slide-to='2'></li>
+        <li data-target='#screenshot-carousel' data-slide-to='3'></li>
+
+      </ol>
+
+      <div class='carousel-inner'>
+        <div class='item active'>
+          <img src='images/hope.jpg' alt='hope.jpg' />
+          <div class='carousel-caption'>
+            <h1>Andrew: For a Better Tomorrow</h1>
+          </div>
+        </div>
+        <div class='item'>
+          <img src='images/koopa_sandwich.jpg' alt='koopa_sandwich.jpg' />
+        </div>
+        <div class='item'>
+          <img src='images/zoidberg.jpg' alt='zoidberg.jpg' />
+          <div class='carousel-caption'>
+            <h1>Need a developer? Why not Zoidberg?</h1>
+          </div>
+        </div>
+        <div class='item'>
+          <img src='images/andrew.jpg' alt='andrew.jpg' />
+        </div>
+
+      </div>
+      <a data-target='#screenshot-carousel' class='left carousel-control' data-slide='prev'>
+        <span class='glyphicon glyphicon-chevron-left'></span>
+      </a>
+      <a data-target='#screenshot-carousel' class='right carousel-control' data-slide='next'>
+        <span class='glyphicon glyphicon-chevron-right'></span>
+      </a>
+
+    </div>
+
+  </div>
+  </section>
+</div>
